@@ -38,4 +38,3 @@ console.log(res.data[0].attributes.title);
 ## License
 
 MIT License
-```
