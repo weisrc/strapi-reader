@@ -1,0 +1,40 @@
+{
+  "name": "strapi-reader",
+  "private": false,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/strapi-reader.es.js",
+  "sideEffects": false,
+  "exports": {
+    "node": "./dist/index.js",
+    "import": "./dist/strapi-reader.es.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.7",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "qs": "^6.11.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weisrc/strapi-reader.git"
+  },
+  "keywords": [
+    "strapi",
+    "strapi-reader"
+  ],
+  "author": "weisrc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weisrc/strapi-reader/issues"
+  },
+  "homepage": "https://github.com/weisrc/strapi-reader#readme",
+  "description": "Type-safe Reader for Strapi"
+}
